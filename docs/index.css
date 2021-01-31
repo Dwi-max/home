@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 html {
@@ -41,13 +40,16 @@ body {
     font-size: 18px;
     font-weight: 300;
     text-decoration: none;
+    transition: 200ms;
 }
 
 .link a img {
-    margin-top: 8px;
+    margin-top: 7px;
 }
 
-
+.link a:hover {
+    border-bottom: 3px solid white;
+}
 
 
 /* Wrap */
