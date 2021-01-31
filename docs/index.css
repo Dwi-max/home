@@ -122,3 +122,18 @@ body {
     font-size: 15px;
     margin-bottom: 20px;
 }
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FF0066;
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(255, 255, 255);
+}
